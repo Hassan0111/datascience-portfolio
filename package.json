@@ -7,8 +7,8 @@
     "deploy": "gh-pages -d dist"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Hassan",
+  "license": "MIT",
   "homepage": "https://hassan0111.github.io/datascience-portfolio",
   "dependencies": {
     "gh-pages": "^3.2.3"
