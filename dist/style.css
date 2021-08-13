@@ -165,7 +165,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("images/banner.jpg") no-repeat center;
+    background: url("images/chair.jpg") no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -174,7 +174,7 @@ section .title::after{
     font-family: 'Ubuntu', sans-serif;
 }
 .home .max-width{
-  width: 100%;
+  width: 100pc;
   display: flex;
 }
 .home .max-width .row{
@@ -190,7 +190,7 @@ section .title::after{
 }
 .home .home-content .text-3{
     font-size: 40px;
-    margin: 5px 0;
+    margin: 15px 0;
 }
 .home .home-content .text-3 span{
     color: crimson;
@@ -212,6 +212,56 @@ section .title::after{
     color: crimson;
     background: none;
 }
+
+
+/* ----------------------
+  particales js
+------------------------*/
+#particles-js {
+    display: flex;
+    background: rgb(0, 0, 0);
+    height: 1000px;
+    min-height: 500px;
+    /* background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; */
+    font-family: 'Ubuntu', sans-serif;
+    /* position: relative;
+    background-position: 50% 50%; */
+}
+/* #particles-js {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+  } */
+ /* ---- reset ---- */ 
+ /* body{
+     margin:0;
+     font:normal 75% Arial, Helvetica, sans-serif;
+    }
+    canvas {
+        display: block;
+        vertical-align: bottom;
+    } 
+ /* ---- particles.js container ---- */ 
+ /* #particles-js{ 
+     position:absolute;
+     width: 100%;
+     height: 100%;
+     background-color:
+     #b61924;
+     background-image: url("");
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: 50% 50%; 
+    }  */
+ 
+
 
 /* about section styling */
 .about .title::after{
