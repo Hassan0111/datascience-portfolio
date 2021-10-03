@@ -165,7 +165,12 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("images/chair.jpg") no-repeat center;
+    /* background: url("images/chair.jpg") no-repeat center; */
+    background-color: #ffffff;
+background-image: linear-gradient(0deg, #ffffff 0%, #000000 95%);
+
+
+    /* background-image: linear-gradient(25deg, #f44d16, #f38c1d, #edbe27, #e0ee32); */
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -174,7 +179,7 @@ section .title::after{
     font-family: 'Ubuntu', sans-serif;
 }
 .home .max-width{
-  width: 0;
+  width: 100%;
   display: flex;
 }
 .home .max-width .row{
